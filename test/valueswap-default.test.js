@@ -1,5 +1,5 @@
 const packageJson = require('../package.json');
-const schema = require('@uniswap/token-lists/src/tokenlist.schema.json');
+const schema = require('@valueswap/token-lists/src/tokenlist.schema.json');
 const { expect } = require('chai');
 const { getAddress } = require('@ethersproject/address');
 const Ajv = require('ajv');
@@ -19,9 +19,9 @@ describe('buildList', () => {
     const map = {};
     for (let token of defaultTokenList.tokens) {
       const key = `${token.chainId}-${token.address}`;
-      expect(typeof map[ key ])
+      expect(typeof map[key])
         .to.equal('undefined');
-      map[ key ] = true;
+      map[key] = true;
     }
   });
 
@@ -29,9 +29,9 @@ describe('buildList', () => {
     const map = {};
     for (let token of defaultTokenList.tokens) {
       const key = `${token.chainId}-${token.symbol.toLowerCase()}`;
-      expect(typeof map[ key ])
+      expect(typeof map[key])
         .to.equal('undefined');
-      map[ key ] = true;
+      map[key] = true;
     }
   })
 
@@ -39,9 +39,9 @@ describe('buildList', () => {
     const map = {};
     for (let token of defaultTokenList.tokens) {
       const key = `${token.chainId}-${token.name.toLowerCase()}`;
-      expect(typeof map[ key ])
+      expect(typeof map[key])
         .to.equal('undefined', `duplicate name: ${token.name}`);
-      map[ key ] = true;
+      map[key] = true;
     }
   })
 

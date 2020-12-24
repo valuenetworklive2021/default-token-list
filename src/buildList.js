@@ -8,7 +8,7 @@ const kovan = require('./tokens/kovan.json');
 module.exports = function buildList() {
   const parsed = version.split('.');
   return {
-    'name': 'Uniswap Default List',
+    'name': 'Valueswap Default List',
     'timestamp': (new Date().toISOString()),
     'version': {
       'major': +parsed[ 0 ],
@@ -16,9 +16,9 @@ module.exports = function buildList() {
       'patch': +parsed[ 2 ]
     },
     'tags': {},
-    'logoURI': 'ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir',
+    'logoURI': 'https://raw.githubusercontent.com/valuenetworklive2021/valueswap-files/master/images/token-list-logo.png',
     'keywords': [
-      'uniswap',
+      'valueswap',
       'default'
     ],
     tokens: [

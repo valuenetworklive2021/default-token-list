@@ -30,5 +30,13 @@
     "decimals": 18,
     "chainId": 4,
     "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
+  },
+  {
+    "name": "Valueswap",
+    "address": "0xAd0fD53c9AB4d6a19C3D0D280ECca2d0C4b1867E",
+    "symbol": "VNTW",
+    "decimals": 18,
+    "chainId": 4,
+    "logoURI": "https://raw.githubusercontent.com/valuenetworklive2021/valueswap-files/master/images/token-list-logo.png"
   }
 ]
