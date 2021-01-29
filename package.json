@@ -1,8 +1,12 @@
 {
   "name": "@valueswap/default-token-list",
   "version": "1.0.1",
-  "description": "◦ The Valueswap default token list",
-  "author": "Value Network",
+  "description": "The Valueswap default token list",
+  "author": {
+    "name": "Value Network",
+    "email": "support@valuenetwork.live",
+    "url": "https://valuenetwork.live"
+  },
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
