@@ -24,8 +24,8 @@
     "logoURI": "ipfs://QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg"
   },
   {
-    "name": "Value Network Token",
-    "address": "0xd39d9Cd4651A6C050Bd4F3c01070909D80BC131F",
+    "name": "Value Network",
+    "address": "0xFa29FfdeB7666133C97768Fb438f268bd3dD0f50",
     "symbol": "VNTW",
     "decimals": 18,
     "chainId": 3,

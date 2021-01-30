@@ -1,6 +1,6 @@
 {
   "name": "@valueswap/default-token-list",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "The Valueswap default token list",
   "author": {
     "name": "Value Network",
@@ -15,7 +15,7 @@
   "scripts": {
     "test": "mocha",
     "build": "rimraf build && mkdir -p build && node src/write.js > build/valueswap-default.tokenlist.json",
-    "prepublishOnly-": "npm test && npm run build"
+    "prepublishOnly": "npm test && npm run build"
   },
   "main": "build/valueswap-default.tokenlist.json",
   "files": [
